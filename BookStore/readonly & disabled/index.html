@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <!-- read only data are sent to server but disabled no it doesn't  -->
+        <lable>Readonly</lable>
+        <input type="text" placeholder="username" name="username" value="user" readonly />
+        <br>
+        <div><label>Email:</label>
+            <input type="email" disabled required placeholder="Name" name="email" value="${username}" />
+        </div>
+        <div>
+            <lable>auto focus</lable>
+            <input type="text" autofocus minlength="16" maxlength="26">
+        </div>
+        <input type="submit" value="save">
+    </form>
+</body>
+
+</html>

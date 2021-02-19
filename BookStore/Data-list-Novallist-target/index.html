@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- can have novildate attribute -->
+    <!-- can have target attribute -->
+    <form method="get" target="blank">
+        <hr>
+        <!-- datalist is Epic -->
+        <input list="programming" name="prog" />
+        <datalist id="programming">
+            <option value="html"></option>
+            <option value="Python"></option>
+            <option value="CSS"></option>
+            <option value="SCSS"></option>
+            <option value="JS"></option>
+            <option value="C"></option>
+            <option value="JAVA"></option>
+            <option value="C#"></option>
+        </datalist>
+        <input type="submit" value="Save" />
+        <input type="reset" value="cancel" />
+    </form>
+</body>
+
+</html>

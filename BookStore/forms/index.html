@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- action => whete the data will be sent -->
+    <form method="POST" action="#">
+        <!--  input is inline element -->
+        <div><label>Username:</label>
+            <input required type="text" placeholder="Username" name='username' />
+        </div>
+        <br>
+        <div><label>Email:</label>
+            <input type="email" required placeholder="Name" name="email" value="${username}" />
+        </div>
+        <br>
+        <div><label>Password</label>
+            <input required type="password" name="password" placeholder="Paasword" />
+        </div>
+        <input type="submit" value="Save" />
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+div {
+    width: 300px;
+    padding: 10px;
+    border: 10px solid red;
+    border-radius: 45px;
+    outline: 10px solid blue;
+}
+/*  border is easliy usable and friendly  */

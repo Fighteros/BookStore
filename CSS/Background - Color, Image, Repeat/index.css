@@ -1,0 +1,16 @@
+ div{
+    /* color name     */
+    background-color: red; 
+    /* Red Green Blue alpha channel*/
+    background-color: rgb(125 25 5/50%); 
+    /* Color hex code  */
+    background-color: #FF0000; 
+    background-image: url("../../BookStore/imagesFold/img.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    background-size: cover;
+    background-size: contain;
+}
+

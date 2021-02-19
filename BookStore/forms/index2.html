@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form method="get" action="">
+        <label for="book">Choose Book</label>
+        <!-- can add muliple to select -->
+        <select name="book" id="book">
+            <optgroup label="ro books">
+                <option value="1">Book 1</option>
+                <option value="2">Book 2</option>
+                <option value="3">Book 3</option>
+                <option value="4">Book 4</option>
+            </optgroup>
+            <optgroup label="novals">
+                <option selected value="1">Book 1</option>
+                <option value="2">Book 2</option>
+                <option value="3">Book 3</option>
+                <option value="4">Book 4</option>
+            </optgroup>
+            <optgroup label="temp books">
+                <option value="1">Book 1</option>
+                <option value="2">Book 2</option>
+                <option value="3">Book 3</option>
+                <option value="4">Book 4</option>
+            </optgroup>
+        </select>
+        <hr>
+        <textarea name="form1" id="form1" cols="30" rows="10" placeholder="Test Text " maxlength="250"
+            minlength="11"></textarea>
+        <hr>
+        <input type="submit" value="Save" />
+        <input type="reset" value="cancel" />
+    </form>
+</body>
+
+</html>
