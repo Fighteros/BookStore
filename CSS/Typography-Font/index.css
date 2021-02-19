@@ -1,0 +1,24 @@
+/* 
+    Font Family
+*/
+
+/* div {
+    background-color: #eee;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.san {
+    font-family: 'Times New Roman', Times, serif;
+
+.with-no-san {
+    font-family: "Cairo", sans-serif;
+}
+
+
+.san, .with-no-san {
+    font-size: 33px;
+    margin: 2px;
+    padding: 10px;
+    background-color: #eee;
+}

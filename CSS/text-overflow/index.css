@@ -1,0 +1,12 @@
+div {
+    padding: 10px;
+    background-color: #DDD;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ div:hover {
+    overflow: visible;
+} 
